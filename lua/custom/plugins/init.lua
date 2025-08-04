@@ -6,4 +6,6 @@ return {
   require 'custom.plugins.vim-be-good',
   require 'custom.plugins.markdown-preview',
   require 'custom.plugins.alpha',
+  require 'custom.plugins.lazygit',
+  require 'custom.plugins.misc',
 }

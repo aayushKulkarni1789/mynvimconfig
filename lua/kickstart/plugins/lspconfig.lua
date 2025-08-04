@@ -220,19 +220,19 @@ return {
         --
 
         -- python config:
-        ruff = {},
+        -- ruff = {},
         pylsp = {
           settings = {
             pylsp = {
               plugins = {
-                pyflakes = { enabled = false },
-                pycodestyle = { enabled = false },
-                autopep8 = { enabled = false },
-                yapf = { enabled = false },
-                mccabe = { enabled = false },
-                pylsp_mypy = { enabled = false },
-                pylsp_black = { enabled = false },
-                pylsp_isort = { enabled = false },
+                -- pyflakes = { enabled = false },
+                -- pycodestyle = { enabled = false },
+                -- autopep8 = { enabled = false },
+                -- yapf = { enabled = false },
+                -- mccabe = { enabled = false },
+                -- pylsp_mypy = { enabled = false },
+                -- pylsp_black = { enabled = false },
+                -- pylsp_isort = { enabled = false },
                 -- rope  = { enabled = false },
                 -- Aaku here; For some weird reason, installing pylsp gives an error of rope_rename module not found, even if rope is clearly installed.
                 -- Okay apparently disabling rope also does literally nothing. why the fuck am I getting this error then??
